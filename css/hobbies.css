@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+#titulo{
+    font-family: 'Amiri', serif;
+    color: burlywood;
+    margin-left: 42%;
+    
+}
+h1{
+    color: burlywood;
+}
+
+.hobbies{
+    display: block;
+}
+.interesses{
+    display: block;
+}
+#subtitulo{
+    font-family: 'Amiri', serif;
+    color: burlywood;
+    margin-left: 32%;
+}
+
+.rodape{
+    font-family: 'PT Serif', serif;
+    background-color: whitesmoke;
+    text-align: left;
+    margin-top: 5%;
+    position: static;
+    left: 0;
+    bottom: 100%;
+    
+}
