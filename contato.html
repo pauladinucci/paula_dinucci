@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/contato.css" media="screen">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Entre em contato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">Paula Dinucci</a>
+            <ul class="nav-list">
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="hobbies.html">Hobbies e interesses</a></li>
+                <li><a href="contato.html">Entre em contato</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <br>
+
+    <div class="primeiro">
+        <h1 id="titulo">Entre em contato</h1>
+        <p id="subtitulo">Preencha o formulário abaixo, retornaremos seu contato com mais informações</p>
+   <br>
+    </div>
+    
+        <form class="bossform">
+            
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            
+            <br>
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="email" name="email" id="email" required>
+            
+
+           
+                <br>
+                <label for="mensagem"><strong>Mensagem</strong></label>
+                <br>
+                <textarea row="20" id="mensagem" nome="mensagem"></textarea>
+           
+        </form>
+                 <button class="botao" onclick="alert('Mensagem enviada!')" type="submit">Enviar</button>
+              
+                 <footer class="rodape">
+                    <address>
+                        <h1 style="color: burlywood";><strong>Paula Dinucci</strong>, BSc</h1>
+                        <p style="color:black">Desenvolvedora Web Full Stack</p>
+                        <p style="color:black">Rio de Janeiro</p>
+                        <p style="color:black">Brasil</p>
+                    </address>
+            
+                </footer>
+        </body>
+</html>
